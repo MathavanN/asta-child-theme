@@ -9,3 +9,127 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ketoshop-astra-child
 Template: astra
 */
+/*about us page css*/
+.about-us div ul li a {
+	text-decoration: none !important
+}
+/* Ketolinks page css*/
+.my-ketolinks div ul li a {
+	text-decoration: none !important
+}
+/*impressum page css*/
+.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-opened {
+    font-size: 30px !important;
+}
+
+.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed {
+    font-size: 30px !important;
+}
+.elementor-accordion .elementor-accordion-item .elementor-tab-title .elementor-accordion-title {
+	text-decoration: none !important
+}
+
+.elementor-accordion .elementor-accordion-item .elementor-tab-title, .elementor-accordion .elementor-accordion-item .elementor-tab-title {
+	border-bottom: solid !important;
+	border-style: solid !important;
+	border-width: 0px 0px 1px 0px !important;
+  border-color: #CFD209 !important;
+}
+/* agp/versand page css*/
+.my-agb a, .my-versand a {
+	color: #CFD209 !important;
+	text-decoration: none !important
+}
+.my-agb a:hover, .my-versand a:hover {
+	color: #878906 !important;
+	text-decoration: none !important
+}
+/* versand page css*/
+.my-versand div div div div {
+	text-align: justify !important;
+}
+.my-versand div div div h5 a {
+	color: #CFD209 !important;
+	text-decoration: none !important
+}
+.my-versand div div div h5 a:hover {
+	color: #878906 !important;
+	text-decoration: none !important
+}
+.my-versand-info {
+	margin-bottom: 8px !important;
+}
+/*kontakt page css*/
+.your-name, .your-email, .your-message 
+{
+	border-radius: 10px 0px 10px 10px !important;
+	border-color: #62151563 !important;
+}
+.contact-us-submit {
+	border-radius: 10px 0px 10px 10px !important;
+	border: 2px solid black !important;
+	color: #CFD209 !important;
+	border-color: #CFD209 !important;
+	background-color: white !important
+}
+.contact-us-submit:hover {
+	background-color: #CFD209 !important;
+	color: white !important;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+	border-color: none !important
+}
+/*Category page css*/
+.woocommerce-LoopProduct-link {
+    border: 3px solid #dadada;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    border-radius: 25px 0px 25px 25px!important;
+    transition: border 0.2s linear;
+    transition-property: border;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.woocommerce-LoopProduct-link:hover {
+    border-color: #cdd122!important;
+    box-shadow: 1px 1px 10px #ccc!important;
+}
+
+.astra-shop-summary-wrap  .button {
+    background-color: #FFFFFF !important;
+    color: #621515 !important;
+    text-decoration: none !important;
+    border-style: solid !important;
+	width: 100% !important;
+	text-align: center !important;
+	border-color: #621515 !important;
+    border-width: 3px 3px 3px 3px !important;
+    border-radius: 10px 0px 10px 10px !important;
+    padding: 5px 5px 5px 5px !important;
+}
+
+.astra-shop-summary-wrap  .button:hover {
+    background-color: #621515 !important;
+    color: #FFFFFF !important;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #621515 !important;
+}
+.astra-shop-summary-wrap a .woocommerce-loop-product__title {
+	text-align: left;
+    padding: 0.5em 0em 0.5em 0em;
+    margin: 0px 0px 0px 0px;
+    order: 3;
+	font-family: "Co Headline", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+	color: #CFD209 !important
+}
+
+.astra-shop-summary-wrap a .woocommerce-loop-product__title:hover {
+	color: #621515 !important
+}
