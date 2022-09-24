@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-if( has_term( 'buecher', 'product_cat' ) ) {
+if( has_term( ['buecher', 'monitoring-tools', 'vitalpilze', 'supplements'], 'product_cat' ) ) {
 	wc_get_template( 'archive-product-ketoshop.php' );
 }
 else {

@@ -79,6 +79,13 @@ Template: astra
 .wpcf7 form.sent .wpcf7-response-output {
 	border-color: none !important
 }
+/*Astra woocommerce container size*/
+.ast-woo-shop-archive .site-content > .ast-container {
+    max-width: 1140px !important;
+}
+.ast-woo-shop-archive .site-content .ast-container .content-area {
+    margin: 2em  0 !important;
+}
 /*Category page css*/
 .woocommerce-LoopProduct-link {
     border: 3px solid #dadada;
