@@ -11,12 +11,14 @@ Template: astra
 */
 /*about us page css*/
 .about-us div ul li a {
-	text-decoration: none !important
+    text-decoration: none !important
 }
+
 /* Ketolinks page css*/
 .my-ketolinks div ul li a {
-	text-decoration: none !important
+    text-decoration: none !important
 }
+
 /*impressum page css*/
 .elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-opened {
     font-size: 30px !important;
@@ -25,74 +27,96 @@ Template: astra
 .elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed {
     font-size: 30px !important;
 }
+
 .elementor-accordion .elementor-accordion-item .elementor-tab-title .elementor-accordion-title {
-	text-decoration: none !important
+    text-decoration: none !important
 }
 
-.elementor-accordion .elementor-accordion-item .elementor-tab-title, .elementor-accordion .elementor-accordion-item .elementor-tab-title {
-	border-bottom: solid !important;
-	border-style: solid !important;
-	border-width: 0px 0px 1px 0px !important;
-  border-color: #CFD209 !important;
+.elementor-accordion .elementor-accordion-item .elementor-tab-title,
+.elementor-accordion .elementor-accordion-item .elementor-tab-title {
+    border-bottom: solid !important;
+    border-style: solid !important;
+    border-width: 0px 0px 1px 0px !important;
+    border-color: #CFD209 !important;
 }
+
 /* agp/versand page css*/
-.my-agb a, .my-versand a {
-	color: #CFD209 !important;
-	text-decoration: none !important
+.my-agb a,
+.my-versand a {
+    color: #CFD209 !important;
+    text-decoration: none !important
 }
-.my-agb a:hover, .my-versand a:hover {
-	color: #878906 !important;
-	text-decoration: none !important
+
+.my-agb a:hover,
+.my-versand a:hover {
+    color: #878906 !important;
+    text-decoration: none !important
 }
+
 /* versand page css*/
 .my-versand div div div div {
-	text-align: justify !important;
+    text-align: justify !important;
 }
+
 .my-versand div div div h5 a {
-	color: #CFD209 !important;
-	text-decoration: none !important
+    color: #CFD209 !important;
+    text-decoration: none !important
 }
+
 .my-versand div div div h5 a:hover {
-	color: #878906 !important;
-	text-decoration: none !important
+    color: #878906 !important;
+    text-decoration: none !important
 }
+
 .my-versand-info {
-	margin-bottom: 8px !important;
+    margin-bottom: 8px !important;
 }
+
 /*kontakt page css*/
-.your-name, .your-email, .your-message 
-{
-	border-radius: 10px 0px 10px 10px !important;
-	border-color: #62151563 !important;
+.your-name,
+.your-email,
+.your-message {
+    border-radius: 10px 0px 10px 10px !important;
+    border-color: #62151563 !important;
 }
+
 .contact-us-submit {
-	border-radius: 10px 0px 10px 10px !important;
-	border: 2px solid black !important;
-	color: #CFD209 !important;
-	border-color: #CFD209 !important;
-	background-color: white !important
+    border-radius: 10px 0px 10px 10px !important;
+    border: 2px solid black !important;
+    color: #CFD209 !important;
+    border-color: #CFD209 !important;
+    background-color: white !important
 }
+
 .contact-us-submit:hover {
-	background-color: #CFD209 !important;
-	color: white !important;
+    background-color: #CFD209 !important;
+    color: white !important;
 }
+
 .wpcf7 form.sent .wpcf7-response-output {
-	border-color: none !important
+    border-color: none !important
 }
+
 /*Astra woocommerce container size*/
-.ast-woo-shop-archive .site-content > .ast-container {
+.ast-woo-shop-archive .site-content>.ast-container {
     max-width: 1140px !important;
 }
-.ast-woo-shop-archive .site-content .ast-container .content-area {
-    margin: 2em  0 !important;
+
+.ast-woocommerce-containerss {
+    max-width: 1140px !important;
 }
+
+.ast-woo-shop-archive .site-content .ast-container .content-area {
+    margin: 1em 0 !important;
+}
+
 /*Category page css*/
 .woocommerce-LoopProduct-link {
     border: 3px solid #dadada;
     text-align: center;
     padding: 15px 0;
     position: relative;
-    border-radius: 25px 0px 25px 25px!important;
+    border-radius: 25px 0px 25px 25px !important;
     transition: border 0.2s linear;
     transition-property: border;
     transition-duration: 0.2s;
@@ -101,42 +125,181 @@ Template: astra
 }
 
 .woocommerce-LoopProduct-link:hover {
-    border-color: #cdd122!important;
-    box-shadow: 1px 1px 10px #ccc!important;
+    border-color: #cdd122 !important;
+    box-shadow: 1px 1px 10px #ccc !important;
 }
 
-.astra-shop-summary-wrap  .button {
+/*Category Page Product Add to cart css*/
+.astra-shop-summary-wrap .product_type_external,
+.astra-shop-summary-wrap .product_type_variable,
+.astra-shop-summary-wrap .ajax_add_to_cart {
     background-color: #FFFFFF !important;
     color: #621515 !important;
     text-decoration: none !important;
     border-style: solid !important;
-	width: 100% !important;
-	text-align: center !important;
-	border-color: #621515 !important;
+    width: 100% !important;
+    text-align: center !important;
+    border-color: #621515 !important;
     border-width: 3px 3px 3px 3px !important;
     border-radius: 10px 0px 10px 10px !important;
     padding: 5px 5px 5px 5px !important;
+    font-family: "Helvetica", sans-serif;
 }
 
-.astra-shop-summary-wrap  .button:hover {
+.astra-shop-summary-wrap .product_type_external:hover,
+.astra-shop-summary-wrap .product_type_variable:hover,
+.astra-shop-summary-wrap .ajax_add_to_cart:hover {
     background-color: #621515 !important;
     color: #FFFFFF !important;
     text-decoration: none;
     border-style: solid;
     border-width: 3px 3px 3px 3px;
     border-color: #621515 !important;
+    font-family: "Helvetica", sans-serif;
 }
+
+/*Category Page Product Title css*/
 .astra-shop-summary-wrap a .woocommerce-loop-product__title {
-	text-align: left;
+    text-align: left;
     padding: 0.5em 0em 0.5em 0em;
     margin: 0px 0px 0px 0px;
     order: 3;
-	font-family: "Co Headline", sans-serif;
+    font-family: "Co Headline Corp", sans-serif;
     font-size: 1em;
     font-weight: 700;
-	color: #CFD209 !important
+    color: #CFD209 !important
 }
 
 .astra-shop-summary-wrap a .woocommerce-loop-product__title:hover {
-	color: #621515 !important
+    color: #621515 !important
+}
+
+.astra-shop-summary-wrap .price .woocommerce-Price-amount {
+    color: #621515 !important;
+    font-size: 1.1rem;
+    font-family: "Helvetica", sans-serif;
+}
+
+.astra-shop-summary-wrap .star-rating {
+    color: #621515 !important;
+}
+
+.ast-woo-shop-product-description {
+    font-family: "Helvetica", sans-serif;
+}
+
+/*Category Page Pagination css*/
+nav.woocommerce-pagination {
+    text-align: center !important;
+}
+
+nav.woocommerce-pagination li {
+    border: 1px solid #7A7A7A75 !important;
+}
+
+nav.woocommerce-pagination li a {
+    color: #CFD209 !important;
+    font-weight: 700 !important;
+}
+
+nav.woocommerce-pagination ul li a:hover {
+    background: #621515 !important;
+    color: #ffffff !important;
+}
+
+nav.woocommerce-pagination ul li span.current {
+    background: #DADADA !important;
+    color: #621515 !important;
+    font-weight: 700 !important;
+}
+
+/*Category Page OrderBy css*/
+form.woocommerce-ordering .orderby {
+    border: 1px solid #7A7A7A75 !important;
+    border-radius: 10px !important;
+    font-weight: 400;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/*Category Page Header css*/
+header.woocommerce-products-header h1 {
+    color: #621515 !important;
+    font-family: 'Co Headline Corp', sans-serif;
+}
+
+header.woocommerce-products-header div.term-description p {
+    text-align: justify;
+    font-weight: 400;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/*Category Page Result Count css*/
+.woocommerce-result-count {
+    font-weight: 400;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/*Woocommerce breadcrumb css*/
+.ketoshop-breadcrumb {
+    font-size: 0.75rem;
+    font-family: "Helvetica", sans-serif;
+    list-style: none;
+    margin: 0 0 0 0 !important;
+    /* font-size: 1em; */
+}
+.ketoshop-breadcrumb li {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.ketoshop-breadcrumb li a {
+    background-color: #621515;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline;
+    max-height: 2em;
+    padding: .5em 1em .41em 1.5em;
+    position: relative;
+    text-decoration: none;
+    transition: .25s;
+}
+
+.ketoshop-breadcrumb li a:before {
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-left: 1.1em solid #fff;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1.1em;
+    z-index: 1;
+}
+
+.ketoshop-breadcrumb li a:after {
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-left: 1em solid #621515;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1em;
+    transition: .25s;
+    z-index: 1;
+}
+
+.ketoshop-breadcrumb li a:hover {
+    background-color: #CFD209;
+}
+
+.ketoshop-breadcrumb li a:hover:after {
+    border-left-color: #CFD209;
+}
+
+.ketoshop-breadcrumb li:last-child a {
+    background-color: #CFD209;
+    pointer-events: none;
+}
+
+.ketoshop-breadcrumb li:last-child a:after {
+    border-left-color: #CFD209;
 }
