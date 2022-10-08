@@ -49,25 +49,27 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( ! empty( $breadcrumb ) ) {
 
-	echo $wrap_before;
+	//echo $wrap_before;
+	echo '<ul class="ketoshop-breadcrumb">';
 
 	foreach ( $breadcrumb as $key => $crumb ) {
 
-		echo $before;
+		//echo $before;
+		echo '<li>';
 
 		if ( ! empty( $crumb[1] ) && sizeof( $breadcrumb ) !== $key + 1 ) {
 			echo '<a href="' . esc_url( $crumb[1] ) . '">' . esc_html( $crumb[0] ) . '</a>';
 		} else {
-			echo esc_html( $crumb[0] );
+			echo '<a href="#">' . esc_html( $crumb[0] ) . '</a>';
 		}
+		echo '</li>';
+		//echo $after;
 
-		echo $after;
-
-		if ( sizeof( $breadcrumb ) !== $key + 1 ) {
-			echo $delimiter;
-		}
+		// if ( sizeof( $breadcrumb ) !== $key + 1 ) {
+		// 	echo $delimiter;
+		// }
 	}
-
-	echo $wrap_after;
+	echo '</ul>';
+	//echo $wrap_after;
 
 }
